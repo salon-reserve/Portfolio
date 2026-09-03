@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio | Web Design & Creative</title>
+
+  <meta
+    name="description"
+    content="Web制作・SNSデザイン・動画制作を中心としたポートフォリオサイトです。"
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- ========================================
+       HEADER
+  ========================================= -->
+
+  <header class="header">
+
+    <div class="header-inner">
+
+      <a href="#top" class="logo">
+        PORTFOLIO
+      </a>
+
+      <nav class="nav">
+        <a href="#about">ABOUT</a>
+        <a href="#works">WORKS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <!-- スマホメニュー -->
+      <button
+        class="menu-button"
+        id="menuButton"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- ========================================
+         TOP
+    ========================================= -->
+
+    <section class="hero" id="top">
+
+      <div class="hero-inner">
+
+        <p class="hero-sub">
+          WEB DESIGN / GRAPHIC / SNS / MOVIE
+        </p>
+
+        <h1 class="hero-title">
+          Design that<br>
+          connects.
+        </h1>
+
+        <p class="hero-jp">
+          想いと人をつなぐ、伝わるデザイン。
+        </p>
+
+        <div class="hero-scroll">
+          <span>SCROLL</span>
+          <div class="scroll-line"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         ABOUT
+    ========================================= -->
+
+    <section class="section about" id="about">
+
+      <div class="section-inner">
+
+        <div class="section-heading">
+
+          <p class="section-number">01</p>
+
+          <div>
+            <p class="section-en">ABOUT</p>
+            <h2>私について</h2>
+          </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+          <div class="about-title">
+
+            <p><br>
+              「伝えたいこと」が、<br>
+              きちんと伝わるデザインを。
+            </p>
+
+          </div>
+
+
+          <div class="about-text">
+
+            <p>
+            過去に美容外科にてデザインを担当しておりました。<br>
+              Webサイト制作・SNSクリエイティブ・<br>
+              グラフィックデザイン・動画制作を中心に、<br>
+              デザイン制作を行っています。
+            </p>
+
+            <p>
+              見た目の美しさだけではなく、<br>
+              「誰に、何を伝えるのか」を考えながら、<br>
+              ユーザーにとって分かりやすく、<br>
+              目的につながるデザインを大切にしています。
+            </p>
+
+            <p>
+              HTML / CSS / JavaScriptを使用したWeb制作から、<br>
+              Canva・Photoshop・Illustratorを使用した<br>
+              ビジュアル制作、CapCutを使用した動画制作まで<br>
+              幅広く対応しています。
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ========================================
+         WORKS
+    ========================================= -->
+
+    <section class="section works" id="works">
+
+      <div class="section-inner">
+
+        <div class="section-heading">
+
+          <p class="section-number">02</p>
+
+          <div>
+            <p class="section-en">WORKS</p>
+            <h2>制作実績</h2>
+          </div>
+
+        </div>
+
+
+        <!-- カテゴリー切り替え -->
+
+        <div class="works-filter">
+
+          <button class="filter-button active" data-filter="all">
+            ALL
+          </button>
+
+          <button class="filter-button" data-filter="web">
+            WEB
+          </button>
+
+          <button class="filter-button" data-filter="graphic">
+            GRAPHIC
+          </button>
+
+          <button class="filter-button" data-filter="sns">
+            SNS
+          </button>
+
+          <button class="filter-button" data-filter="movie">
+            MOVIE
+          </button>
+
+        </div>
+
+
+        <div class="works-grid">
+
+
+          <!-- =================================
+               WORK 01
+               Webサイト
+          ================================== -->
+
+          <article class="work-card" data-category="web">
+
+            <!--
+              ↓ ここを制作サイトのスクリーンショットに変更
+              例：
+              images/tsumugi.jpg
+            -->
+
+            <div class="work-image placeholder-image">
+
+              <span>WEB SITE</span>
+
+            </div>
+
+
+            <div class="work-info">
+
+              <div>
+
+                <p class="work-category">
+                  WEB DESIGN / CODING
+                </p>
+
+                <h3>
+                  振袖レンタル Web Site
+                </h3>
+
+              </div>
+
+              <span class="work-arrow">↗</span>
+
+            </div>
+
+          </article>
+
+
+         <!-- =================================
+     WORK 02
+     Beauty Salon Menu
+================================== -->
+
+<a
+  href="https://x.gd/tDVAy"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="work-card"
+  data-category="graphic"
+>
+
+  <div class="work-image">
+
+    <img
+      src="images/beauty-salon-menu.jpg"
+      alt="Beauty Salon Menu デザイン"
+    >
+
+  </div>
+
+
+  <div class="work-info">
+
+    <div>
+
+      <p class="work-category">
+        GRAPHIC DESIGN
+      </p>
+
+      <h3>
+        Beauty Salon Menu
+      </h3>
+
+      <p class="work-link-text">
+        VIEW PROJECT
+      </p>
+
+    </div>
+
+    <span class="work-arrow">↗</span>
+
+  </div>
+
+</a>
+ <!-- =================================
+     WORK 03
+     SNS
+================================== -->
+
+<a
+  href="https://drive.google.com/file/d/1iKT13jBtetXm9c0FYkb9dQ_ARrx87IKn/view?usp=share_link
+"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="work-card"
+  data-category="movie"
+>    
+
+<article class="work-card" data-category="sns">
+
+  <div class="work-image">
+    <img
+      src="images/sns.jpg"
+      alt="SNS Creative"
+    >
+  </div>
+
+  <div class="work-info">
+
+    <div>
+      <p class="work-category">
+        SNS CREATIVE
+      </p>
+
+      <h3>
+        Creative
+      </h3>
+    </div>
+
+    <span class="work-arrow">↗</span>
+
+  </div>
+
+</article>
+
+
+<!-- =================================
+     WORK 04
+     SNS
+================================== -->
+
+<a
+  href="https://drive.google.com/file/d/1Kl1-pa5fhFxC3v4FT5b3-ZM8SM5j0HO3/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="work-card"
+  data-category="movie"
+>
+
+
+<article class="work-card" data-category="sns">
+
+  <div class="work-image">
+    <img
+      src="images/biyougeka.jpg"
+      alt="Plastic Surgery SNS Creative"
+    >
+  </div>
+
+  <div class="work-info">
+
+    <div>
+      <p class="work-category">
+        SNS CREATIVE
+      </p>
+
+      <h3>
+        Plastic Surgery Creative
+      </h3>
+    </div>
+
+    <span class="work-arrow">↗</span>
+
+  </div>
+
+</article>
+
+
+<!-- =================================
+     WORK 05
+     Short Movie 01
+================================== -->
+
+<a
+  href="https://drive.google.com/file/d/1rm2q4PO_bkWKM4qE6W9uLmaL9mIhsQ3g/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="work-card"
+  data-category="movie"
+>
+
+  <div class="work-image movie-thumbnail">
+
+    <img
+      src="images/movie-01.jpg"
+      alt="Short Movie 01"
+    >
+
+    <div class="movie-play">
+      ▶
+    </div>
+
+  </div>
+
+  <div class="work-info">
+
+    <div>
+      <p class="work-category">
+        MOVIE / SNS
+      </p>
+
+      <h3>
+        Short Movie 01
+      </h3>
+
+      <p class="work-link-text">
+        WATCH MOVIE
+      </p>
+    </div>
+
+    <span class="work-arrow">↗</span>
+
+  </div>
+
+</a>
+
+
+<!-- =================================
+     WORK 06
+     Short Movie 02
+================================== -->
+
+<a
+  href="https://drive.google.com/file/d/1TgqVRr1fRbM47lS1hMucP7g6U1LOvLTx/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="work-card"
+  data-category="movie"
+>
+
+  <div class="work-image movie-thumbnail">
+
+    <img
+      src="images/movie-02.jpg"
+      alt="Short Movie 02"
+    >
+
+    <div class="movie-play">
+      ▶
+    </div>
+
+  </div>
+
+  <div class="work-info">
+
+    <div>
+      <p class="work-category">
+        MOVIE / SNS
+      </p>
+
+      <h3>
+        Short Movie 02
+      </h3>
+
+      <p class="work-link-text">
+        WATCH MOVIE
+      </p>
+    </div>
+
+    <span class="work-arrow">↗</span>
+
+  </div>
+
+</a>
+
+</div> <!-- works-grid -->
+
+</div> <!-- section-inner -->
+
+</section> <!-- works -->
+    <!-- ========================================
+         SKILLS
+    ========================================= -->
+<br>
+    <section class="section skills" id="skills">
+
+      <div class="section-inner">
+
+        <div class="section-heading">
+
+          <p class="section-number">03</p>
+
+          <div>
+            <p class="section-en">SKILLS</p>
+            <h2>できること</h2>
+          </div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+          <!-- WEB -->
+
+          <div class="skill-item">
+
+            <p class="skill-number">01</p>
+
+            <h3>Web Design</h3>
+
+            <p class="skill-description">
+              Webサイトのデザインから、
+              HTML・CSS・JavaScriptを使用した
+              コーディングまで対応します。
+            </p>
+
+            <div class="skill-tags">
+
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+            </div>
+
+          </div>
+
+
+          <!-- GRAPHIC -->
+
+          <div class="skill-item">
+
+            <p class="skill-number">02</p>
+
+            <h3>Graphic Design</h3>
+
+            <p class="skill-description">
+              バナー・メニュー表・広告クリエイティブなど、
+              用途に合わせたデザインを制作します。
+            </p>
+
+            <div class="skill-tags">
+
+              <span>Canva</span>
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+
+            </div>
+
+          </div>
